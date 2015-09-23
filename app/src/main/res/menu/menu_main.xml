@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100"  android:onClick="onSettingsMenuClick"
+        app:showAsAction="never" />
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/action_cat1" android:title="@string/action_cat_male"
+        android:orderInCategory="100" android:onClick="onSettingsMenuClick"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_cat2" android:title="@string/action_cat_female"
+        android:orderInCategory="100" android:onClick="onSettingsMenuClick"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_cat3" android:title="@string/action_kitten"
+        android:orderInCategory="100" android:onClick="onSettingsMenuClick"
+        app:showAsAction="ifRoom"/>
+    </group>
+</menu>

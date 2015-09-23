@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lesson8Menu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="bye_world">Bye world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cat_male">Кот</string>
+    <string name="action_cat_female">Кошечка</string>
+    <string name="action_kitten">Котенька</string>
+    <string name="subMenuFile">Файл</string>
+    <string name="subMenuFileNew">Новый</string>
+    <string name="subMenuFileOpen">Открыть</string>
+    <string name="subMenuFileSave">Сохранить</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
